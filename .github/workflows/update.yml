@@ -29,5 +29,5 @@ jobs:
           git config user.name "bot"
           git config user.email "bot@github.com"
           git add .
-          git commit -m "auto update"
+          git commit -m "auto update" || echo "No changes"
           git push
